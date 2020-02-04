@@ -1,6 +1,6 @@
 public abstract class Race extends Character {
     //    ATTRIBUTES
-//    RACE
+    //    RACE
     private String race;
 
     //    ABILITIES
@@ -32,6 +32,16 @@ public abstract class Race extends Character {
 
     public void racialApp() {
         // Body of functions
+        if (this.race == "Human")
+        {}
+        else if (this.race == "Dwarf")
+        {}
+        else if (this.race == "Elf")
+        {}
+        else if (this.race == "Gnome")
+        {}
+        else if (this.race == "Halfling")
+        {}
 
         calcMods();
     }

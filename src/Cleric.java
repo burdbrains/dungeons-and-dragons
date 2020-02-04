@@ -10,8 +10,8 @@ public class Cleric extends Race{
     private int throwCHA;
 
     // CONSTRUCTOR
-    public Cleric(){
-
+    public Cleric(String n, String cC, String align, String r){
+        super(n,cC,align,r);
     }
 
     public void calcStats(){
@@ -19,6 +19,7 @@ public class Cleric extends Race{
     }
 
     public String toString(){
-
+        String str = "";
+        return str;
     }
 }
