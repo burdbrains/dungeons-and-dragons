@@ -11,7 +11,7 @@ public class Rogue extends Race{
 
     // CONSTRUCTOR
     public Rogue(String n, String cC, String align, String r){
-        super(n,cC,align,r);
+        super(n,cC,r);
     }
 
     public void calcStats(){

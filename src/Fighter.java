@@ -10,8 +10,8 @@ public class Fighter extends Race{
     private int throwCHA;
 
     // CONSTRUCTOR
-    public Fighter(String n, String cC, String align, String r){
-        super(n,cC,align,r);
+    public Fighter(String n, String cC, String r){
+        super(n,cC,r);
     }
 
     public void calcStats(){
