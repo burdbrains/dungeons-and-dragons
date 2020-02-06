@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public abstract class Race extends Character {
     //    ATTRIBUTES
-    //    RACE
+    //    RACe
     private String race;
 
     //    ABILITIES
