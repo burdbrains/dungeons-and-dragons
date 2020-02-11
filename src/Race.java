@@ -3,22 +3,22 @@ import java.util.ArrayList;
 public abstract class Race extends Character {
     //    ATTRIBUTES
     //    RACe
-    private String race;
+    protected String race;
 
     //    ABILITIES
     private int speed;
-    private int STR;
-    private int DEX;
-    private int CON;
-    private int INT;
-    private int WIS;
-    private int CHA;
-    private int strMod = 0;
-    private int dexMod = 0;
-    private int conMod = 0;
-    private int intMod = 0;
-    private int wisMod = 0;
-    private int chaMod = 0;
+    protected int STR;
+    protected int DEX;
+    protected int CON;
+    protected int INT;
+    protected int WIS;
+    protected int CHA;
+    protected int strMod;
+    protected int dexMod;
+    protected int conMod;
+    protected int intMod;
+    protected int wisMod;
+    protected int chaMod;
     /*private int STRraceMod = 0;
     private int DEXraceMod = 0;
     private int CONraceMod = 0;
@@ -74,12 +74,12 @@ public abstract class Race extends Character {
     //
     public void calcMods() // calculate ability mods
     {
-        this.strMod += ((this.strMod/2) + (-5));
-        this.dexMod += ((this.dexMod/2) + (-5));
-        this.conMod += ((this.conMod/2) + (-5));
-        this.intMod += ((this.intMod/2) + (-5));
-        this.wisMod += ((this.wisMod/2) + (-5));
-        this.chaMod += ((this.chaMod/2) + (-5));
+        this.strMod = ((this.STR/2) + (-5));
+        this.dexMod = ((this.DEX/2) + (-5));
+        this.conMod = ((this.CON/2) + (-5));
+        this.intMod = ((this.INT/2) + (-5));
+        this.wisMod = ((this.WIS/2) + (-5));
+        this.chaMod = ((this.CHA/2) + (-5));
     }
     public abstract void calcStats();
 }

@@ -3,6 +3,10 @@ import java.util.*;
 class Main {
     public static void main(String[] args) {
         ArrayList<Integer> abilityScores = generateAbilityScores();
+
+        Fighter fighter = new Fighter("Ethan", "Fighter", "Gnome", abilityScores);
+        System.out.println(fighter.toString());
+
         System.out.println(abilityScores);
 
         // don't do this, use math excluding
